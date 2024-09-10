@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+.cuadrado {
+    width: 80vw; /* El ancho será el 50% del ancho de la ventana */
+    height: 80vw; /* La altura será el 50% del ancho de la ventana */
+    max-width: 650px; /* Máximo ancho */
+    max-height: 650px; /* Máximo alto */
+    border: 5px solid #e8bb26;
+    margin: 50px auto;
+}
+
+h5 {
+    margin-top: 5vw;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: #e8bb26;
+    margin-top: 5vw;
+    font-family: 'Playfair Display', serif;
+    font-size: 5vw;
+}
+
+.b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 60%;
+    background-color: black;
+    color:#e8bb26;
+    border: 2px solid #e8bb26;
+    padding: 1%;
+    border-radius:5px;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: #e8bb26;
+    color: black;
+}
+
+/* Ajustar el tamaño para pantallas pequeñas */
+@media (max-width: 600px) {
+    .cuadrado {
+        width: 80vw; /* El ancho será el 80% del ancho de la ventana en pantallas pequeñas */
+        height: 120vw; /* La altura será el 80% del ancho de la ventana */
+        margin-top: 20vw;        
+    }
+
+    h5{
+        font-size: small;
+        margin-top: 10vw;
+    }
+
+    h1{
+        margin-top: 10vw;
+        font-size: 10vw;
+    }
+
+    button{
+        font-size: small;
+    }
+}

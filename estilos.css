@@ -1,0 +1,124 @@
+
+body{
+    background-image: url('imagenes/fondo.png');
+}
+
+.container {
+    display:flexbox;
+}
+
+.img-fluid {
+    margin-top: 3%;
+    width: 30%;
+    height: 40%;
+}
+
+.uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    color: rgb(95, 95, 95);
+    font-size: x-large;
+    font-weight: bolder;
+    letter-spacing: 15px;
+}
+
+.tres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    color: #cfa438;
+    letter-spacing: 20px;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+}
+
+.cuatro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.cinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+}
+
+.cinco img {
+    width: 85%;
+}
+
+.seis {
+    width: 20%;
+}
+
+button {    
+    width: 100%;
+    background-color: #cbcbcb;
+    color: #cfa438;
+    border: none;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5px;
+    letter-spacing: 10px;
+}
+
+button:hover{
+    background-color: #cfa438;
+    color: white;
+}
+
+
+@media (max-width: 600px){
+    .img-fluid{
+        width: 60%;
+        height: 20%;
+        margin-top: 10%;
+    }
+
+    body {
+        background-image: url('imagenes/fondocelular.png');
+    }
+
+    .dos{
+        margin-top: 15%;
+        letter-spacing: 5px;
+        font-size: small;
+    }
+
+    .tres {
+        letter-spacing: 15px;
+        font-size: 20px;
+    }
+
+    .cinco {
+        margin-top: 3%;
+        width: 15%;
+    }
+
+    .cinco img {
+        width: 60%;
+    }
+
+    .seis {
+        margin-right: 5%;
+        width: 50%;
+    }
+
+    button {
+        font-size: medium;
+        letter-spacing: 5px;
+    }
+}
